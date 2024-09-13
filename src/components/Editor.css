@@ -1,0 +1,48 @@
+.editor-container {
+  display: flex;
+  height: 100%;
+  overflow: auto;
+}
+
+.line-numbers {
+  padding-right: 10px;
+  user-select: none;
+}
+
+.line-numbers div {
+  height: 30px;
+  line-height: 30px;
+}
+
+.code-editor {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.code-editor td {
+  padding: 0;
+  border: 1px solid #ffffff; /* Light border for separation */
+}
+
+.code-editor td.col-1,
+.code-editor td.col-2 {
+  width: 16.67%; /* Each of the first two columns takes 16.67% width */
+}
+
+.code-editor td.col-3 {
+  width: 66.66%; /* The third column takes 66.66% width */
+}
+
+.cell-input {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  padding: 4px;
+  font-family: monospace;
+  height: 30px;
+  line-height: 30px;
+}
+
+.cell-input:focus {
+  outline: none;
+}

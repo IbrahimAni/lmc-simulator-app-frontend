@@ -1,0 +1,20 @@
+{
+    "_id": "665d020299176e61519ee445",
+    "name": "ADD 2 numbers and SUB 1 number",
+    "instructions": [
+        {
+            "label": "",
+            "mnemonic": "INP",
+            "value": "",
+            "_id": "665d020299176e61519ee446"
+        },
+        {
+            "label": "",
+            "mnemonic": "STA",
+            "value": "NUM1",
+            "_id": "665d020299176e61519ee447"
+        }        
+    ],
+    "createdAt": "2024-06-02T23:36:34.417Z",
+    "__v": 0
+}
